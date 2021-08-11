@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void bubbleSort(int *a,int n){
+void bubbleSort(int a[],int n){
     int counter=1;
     while(counter<n){
         for(int j=0;j<n-counter;j++){
